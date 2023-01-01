@@ -1,0 +1,6 @@
+import json
+file = open("pos_0.png.json", "r")
+x = file.read()
+finaldata = json.loads(x)
+
+print(finaldata)
